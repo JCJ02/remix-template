@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import Footer from "~/layouts/Footer";
 
 export const meta: MetaFunction = () => {
   return [
@@ -48,6 +49,7 @@ export default function Index() {
             ))}
           </ul>
         </nav>
+        <Footer />
       </div>
     </div>
   );
